@@ -173,9 +173,11 @@ You may need to update your environment for a variety of reasons. For example, i
 * You need an additional package for data analysis (add a new dependency).
 * You have found a better package and no longer need the older package (add new dependency and remove old dependency).
 
-If any of these occur, all you need to do is update the contents of your `environment.yml` file accordingly and then run the following command:
+If any of these occur, all you need to do is update the contents of your `environment.yml` file accordingly and then run the following commands:
 
 ```
+conda deactivate
+
 conda env update --file environment.yml --prune
 ```
 
