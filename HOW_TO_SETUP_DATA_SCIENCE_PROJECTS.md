@@ -156,6 +156,28 @@ If you need to use Jupyter Notebooks, then I think you will have to install `ipy
 
 <br>
 
+### How to update packages in a virtual environment
+
+You may need to update your environment for a variety of reasons. For example, it may be the case that:
+
+* One of your core dependencies just released a new version (dependency version number update).
+* You need an additional package for data analysis (add a new dependency).
+* You have found a better package and no longer need the older package (add new dependency and remove old dependency).
+
+If any of these occur, all you need to do is update the contents of your `environment.yml` file accordingly and then run the following command:
+
+```
+conda env update --file environment.yml --prune
+```
+
+#### Note
+
+The `--prune` option causes conda to remove any dependencies that are no longer required from the environment.
+
+See [Updating an environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment).
+
+<br>
+
 ### How to deactivate a virtual environment
 
 When you are done working on a particular project you can deactivate the virtual environment with:
