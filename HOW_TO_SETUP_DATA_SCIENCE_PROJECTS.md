@@ -108,7 +108,27 @@ You should see the name of your virtual environment in that list, which is the `
 
 <br>
 
-### Step 4: Activate your virtual environment
+
+### Step 4.a.: Use Jupyter Notebooks in VSCode
+
+There are a few different notebook options that you can use. This shows how to use Jupyter Notebooks inside VSCode.
+
+NOTE: When you install the Python language support extension you should also be prompted to install the Polyglot Notebooks extension, which provides support for Jupyter Notebooks inside of VSCode.
+
+1. Open your project folder in VSCode.
+2. Create a new file with this naming convention: `<file-name>.ipynb`. VSCode will open the file inside a notebook.
+3. Activate Your Virtual Environment: 
+    1. In the top left corner of the notebook file you will see a button for `Select Kernel`. (NOTE: That button looks more like a label than a button.)
+    2. Click that button >> `Python Environments...` >> Select the virtual environment that you created previously. 
+    3. You should now see that `Select Kernel` has been replaced by the virtual environment that you selected.
+
+<br>
+
+### Step 4.b. (Alternative): Use JupyterLab inside your virtual environment
+
+There are a few different notebook options that you can use. This shows how to use JupyterLab inside your virtual environment.
+
+#### Step 4.b.i: Activate your virtual environment
 
 ```
 conda activate <name-of-virtual-environment>
@@ -122,16 +142,7 @@ Once your virtual environment has been activated, your command prompt should be 
 
 <br>
 
-### Step 5: Use Jupyter Notebooks in VSCode
-
-NOTE: When you install the Python language support extension you should also be prompted to install the Polyglot Notebooks extension, which provides support for Jupyter Notebooks inside of VSCode.
-
-1. Open your project folder in VSCode.
-2. Create a new file with this naming convention: `<file-name>.ipynb`. VSCode will open the file inside a notebook.
-3. In the top left corner of the notebook file you will see a label for "Select Kernel". Click that label >> "Python Environments..." >> Select the virtual environment that you activated previously. You should now see that "Select Kernel" has been replaced by the virtual environment that you selected.
-
-
-### Step 5 (Alternative): Run JupyterLab inside your virtual environment
+#### Step 4.b.ii.: Run JupyterLab inside your virtual environment
 
 Run the following command inside your activated virtual environment:
 
@@ -173,7 +184,7 @@ You may need to update your environment for a variety of reasons. For example, i
 * You need an additional package for data analysis (add a new dependency).
 * You have found a better package and no longer need the older package (add new dependency and remove old dependency).
 
-If any of these occur, all you need to do is update the contents of your `environment.yml` file accordingly and then run the following commands:
+If any of these occur, all you need to do is update the contents of your `environment.yml` file accordingly and then run the following commands in your terminal:
 
 ```
 conda deactivate
