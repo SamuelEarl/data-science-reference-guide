@@ -154,7 +154,7 @@ When you run `jupyter-lab` the JupyterLab server will run and an instance of Jup
 
 **So what is `ipykernel`?**
 
-*The Jupyter Notebook and other frontends automatically ensure that the IPython kernel is available. However, if you want to use a kernel with a different version of Python, or in a virtualenv or conda environment, you’ll need to install that manually.* (Source [Installing the IPython kernal](https://ipython.readthedocs.io/en/stable/install/kernel_install.html#:~:text=The%20IPython%20kernel%20is%20the,need%20to%20install%20that%20manually.))
+*The Jupyter Notebook and other frontends automatically ensure that the IPython kernel is available. However, if you want to use a kernel with a different version of Python, or in a virtualenv or conda environment, you’ll need to install that manually.* (Source [Installing the IPython kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html#:~:text=The%20IPython%20kernel%20is%20the,need%20to%20install%20that%20manually.))
 
 Since we are using JupyterLab, instead of Jupyter Notebooks, we are able to run it inside of a virtual environment in a pretty automated and easy way. I don't think that is possible with Jupyter Notebooks, but I could be wrong.
 
