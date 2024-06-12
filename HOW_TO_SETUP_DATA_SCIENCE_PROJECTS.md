@@ -122,7 +122,16 @@ Once your virtual environment has been activated, your command prompt should be 
 
 <br>
 
-### Step 5: Run JupyterLab inside your virtual environment
+### Step 5: Use Jupyter Notebooks in VSCode
+
+NOTE: When you install the Python language support extension you should also be prompted to install the Polyglot Notebooks extension, which provides support for Jupyter Notebooks inside of VSCode.
+
+1. Open your project folder in VSCode.
+2. Create a new file with this naming convention: `<file-name>.ipynb`. VSCode will open the file inside a notebook.
+3. In the top left corner of the notebook file you will see a label for "Select Kernel". Click that label >> "Python Environments..." >> Select the virtual environment that you activated previously. You should now see that "Select Kernel" has been replaced by the virtual environment that you selected.
+
+
+### Step 5 (Alternative): Run JupyterLab inside your virtual environment
 
 Run the following command inside your activated virtual environment:
 
