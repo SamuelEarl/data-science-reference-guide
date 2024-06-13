@@ -176,6 +176,10 @@ If you need to use Jupyter Notebooks, then I think you will have to install `ipy
 
 <br>
 
+---
+
+<br>
+
 ### How to update packages in a virtual environment
 
 You may need to update your environment for a variety of reasons. For example, it may be the case that:
