@@ -1,4 +1,6 @@
-# Install TensorFlow in a virtual environment with Anaconda 
+# Install TensorFlow in a virtual environment with Anaconda
+
+NOTE: Refer to the `HOW_TO_SETUP_DATA_SCIENCE_PROJECTS.md` file for more information on using Anaconda within a virtual environment.
 
 ```
 conda create -n tf tensorflow
