@@ -39,7 +39,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.12.4
-  - pip==24.1.2
+  - pip
   - python-graphviz==0.20.3
   - pip:
     - scikit-learn==1.5.1
