@@ -38,22 +38,22 @@ channels:
   - conda
   - conda-forge
 dependencies:
-  - python=3.9.5
-  - pip
-  - python-graphviz
+  - python=3.12.4
+  - pip==24.1.2
+  - python-graphviz==0.20.3
   - pip:
-    - scikit-learn==0.24.0
-    - pandas==1.2.0
-    - seaborn==0.11.1
-    - imbalanced-learn==0.7.0
-    - numpy==1.19.5
-    - matplotlib==3.3.3
-    - kmodes==0.11.0
-    - six==1.15.0
+    - scikit-learn==1.5.1
+    - pandas==2.2.2
+    - seaborn==0.13.2
+    - imbalanced-learn==0.12.3
+    - numpy==2.0.0
+    - matplotlib==3.9.1
+    - kmodes==0.12.2
+    - six==1.16.0
     - pydotplus==2.0.2
-    - statsmodels==0.12.1
-    - ipykernel==6.15.2
-    - jupyterlab==3.4.5
+    - statsmodels==0.14.2
+    - ipykernel==6.29.5
+    - jupyterlab==4.2.4
 ```
 
 Notice the `ipykernel` and `jupyterlab` packages at the end of the above list. I will give more details about those later.
