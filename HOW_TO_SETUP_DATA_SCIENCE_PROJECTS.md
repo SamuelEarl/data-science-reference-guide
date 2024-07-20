@@ -113,7 +113,7 @@ You should see the name of your virtual environment in that list, which is the `
 
 There are a few different notebook options that you can use. This shows how to use Jupyter Notebooks inside VSCode.
 
-NOTE: When you install the Python language support extension you should also be prompted to install the Polyglot Notebooks extension, which provides support for Jupyter Notebooks inside of VSCode.
+NOTE: When you install the Python language support extension in VSCode you should also be prompted to install the Polyglot Notebooks extension, which provides support for Jupyter Notebooks inside of VSCode.
 
 1. Open your project folder in VSCode.
 2. Create a new file with this naming convention: `<file-name>.ipynb`. VSCode will open the file inside a notebook.
