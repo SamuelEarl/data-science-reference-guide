@@ -1,5 +1,7 @@
 # Shortcut Tips
 
+These are shortcuts that you can use with VSCode.
+
 ## Explore Objects, Modules, and Namespaces with Ctrl+Space
 
 Another useful interface is the use of the Tab key for autocompletion and exploration of the contents of objects, modules, and namespaces.
