@@ -56,9 +56,14 @@ dependencies:
     - jupyterlab==4.2.4
 ```
 
-Notice the `ipykernel` and `jupyterlab` packages at the end of the above list. I will give more details about those later.
+**What is `ipykernel`?**
 
-<br>
+*The Jupyter Notebook and other frontends automatically ensure that the IPython kernel is available. However, if you want to use a kernel with a different version of Python, or in a virtualenv or conda environment, you’ll need to install that manually.* (Source [Installing the IPython kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html#:~:text=The%20IPython%20kernel%20is%20the,need%20to%20install%20that%20manually.))
+
+Since we are using JupyterLab, instead of Jupyter Notebooks, we are able to run it inside of a virtual environment in a pretty automated and easy way. I don't think that is possible with Jupyter Notebooks, but I could be wrong.
+
+NOTE: If you need to use Jupyter Notebooks (instead of JupyterLab), then I think you will have to install `ipykernel` and run Jupyter Notebooks inside a virtual environment a different (and more manual) way. For details, refer to the Preface of the book I own titled "Data Science for Marketing Analytics".
+
 <hr>
 <br>
 
@@ -160,19 +165,6 @@ When you run `jupyter-lab` the JupyterLab server will run and an instance of Jup
 ```
 
 2. When JupyterLab first loads up in your browser, under the "Launcher" tab you will see options for "Python 3 (ipykernel)" under the "Notebook" and "Console" headings. 
-
-<br>
-
-**So what is `ipykernel`?**
-
-*The Jupyter Notebook and other frontends automatically ensure that the IPython kernel is available. However, if you want to use a kernel with a different version of Python, or in a virtualenv or conda environment, you’ll need to install that manually.* (Source [Installing the IPython kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html#:~:text=The%20IPython%20kernel%20is%20the,need%20to%20install%20that%20manually.))
-
-Since we are using JupyterLab, instead of Jupyter Notebooks, we are able to run it inside of a virtual environment in a pretty automated and easy way. I don't think that is possible with Jupyter Notebooks, but I could be wrong.
-
-<br>
-
-NOTE:
-If you need to use Jupyter Notebooks, then I think you will have to install `ipykernel` and run Jupyter Notebooks inside a virtual environment a different (and more manual) way. For details, refer to the Preface of the book I own titled "Data Science for Marketing Analytics".
 
 <br>
 
