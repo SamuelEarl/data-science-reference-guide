@@ -70,19 +70,23 @@ NOTE: If you need to use Jupyter Notebooks (instead of JupyterLab), then I think
 For reference, here is an `environment.yml` file that could be used with a Python backend for web development, if you are not using Docker as your development environment:
 
 ```yml
+# This file is used with conda virtual environments for development. Docker development environments use the `requirements.txt` file.
+
 name: name-of-virtual-environment
 dependencies:
-  - python=3.6
-  - pip=21.0
+  - python=3.12
+  - pip=24.2
   # You need to list pip as a dependency and then list any packages that need to be installed by pip after all the dependencies that are to be installed by conda.
   # https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#using-pip-in-an-environment
   # https://stackoverflow.com/questions/61715343/solving-environment-failed-when-trying-to-set-up-python-virtual-envrironment
   - pip:
-    - fastapi
-    - uvicorn
-    - aiofiles
-    - plotly==4.14.3
-    - pandas==1.1.5
+    - litestar[standard]==2.12.1
+    # - uvicorn==0.32.0 # litestar[standard] includes commonly used extras like uvicorn, so it is not necessary to specify uvicorn as a separate package.
+    - python-dotenv==1.0.1
+    - pyjwt==2.9.0
+    - python-multipart==0.0.12
+    - aiofiles==24.1.0
+    - edgedb==2.1.0
 ```
 
 <br>

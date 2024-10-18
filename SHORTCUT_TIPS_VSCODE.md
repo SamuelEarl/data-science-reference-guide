@@ -1,6 +1,6 @@
 # Shortcut Tips
 
-These are shortcuts that you can use with VSCode.
+These are shortcuts that you can use with VSCode. Most of these notes are taken from "Python Data Science Handbook" and converted to VSCode.
 
 ## Explore Objects, Modules, and Namespaces with Ctrl+Space
 
