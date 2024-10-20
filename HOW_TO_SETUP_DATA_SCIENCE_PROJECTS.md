@@ -146,7 +146,7 @@ conda activate <name-of-virtual-environment>
 Once your virtual environment has been activated, your command prompt should be prefixed with the name of your virtual environment. For example:
 
 ```
-(name-of-virtual-environment) ~/code/data-science/...
+(name-of-virtual-environment) ~/path/to/data/science/project(name-of-git-branch)$
 ```
 
 <br>
