@@ -20,9 +20,9 @@ Every data science project you do will require some combination of external libr
 
 The standard solution is to use virtual environments, which are sandboxed Python environments that maintain their own versions of Python libraries (and, depending on how you set up the environment, of Python itself).
 
-As a matter of good discipline, you should always work in a virtual environment, and never using the "base" Python installation. 
+As a matter of good discipline, you should always work in a virtual environment, and never use the "base" Python installation. 
 
-*Source: Data Science from Scratch, pages 37 and 41*
+_Source: "Data Science from Scratch - 2nd Ed," pages 37, 24_
 
 <br>
 
