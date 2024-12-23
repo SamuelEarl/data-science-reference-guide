@@ -38,7 +38,7 @@ channels:
   - conda
   - conda-forge
 dependencies:
-  - python=3.12.4
+  - python==3.12.4
   - pip
   - python-graphviz==0.20.3
   - pip:
