@@ -14,7 +14,7 @@ This repo will contain all of my data science notes.
 
 <br><br>
 
-## Run JupyterLab inside a virtual environment (RECOMMENDED)
+## Use Jupyter Notebooks or JupyterLab inside of a virtual environment (RECOMMENDED)
 
 Every data science project you do will require some combination of external libraries, sometimes with specific versions that differ from the specific versions you used for other projects. If you were to have a single Python installation, these libraries would conflict and cause you all sorts of problems. 
 
@@ -122,7 +122,7 @@ You should see the name of your virtual environment in that list, which is the `
 
 There are a few different notebook options that you can use. This shows how to use Jupyter Notebooks inside VSCode.
 
-NOTE: When you install the Python language support extension in VSCode you should also be prompted to install the Polyglot Notebooks extension, which provides support for Jupyter Notebooks inside of VSCode.
+NOTE: Make sure that you have the Polyglot Notebooks extension installed in VS Code. This extension provides support for Jupyter Notebooks inside of VSCode.
 
 1. Open your project folder in VSCode.
 2. Create a new file with this naming convention: `<file-name>.ipynb`. VSCode will open the file inside a notebook.
@@ -136,6 +136,8 @@ NOTE: When you install the Python language support extension in VSCode you shoul
 ### Step 4.b. (Alternative): Use JupyterLab inside your virtual environment
 
 There are a few different notebook options that you can use. This shows how to use JupyterLab inside your virtual environment.
+
+<br>
 
 #### Step 4.b.i: Activate your virtual environment
 
@@ -232,7 +234,7 @@ conda env list
 
 <br>
 
-## Install JupyterLab and run it outside of a virtual environment (NOT RECOMMENDED)
+## Use JupyterLab outside of a virtual environment (NOT RECOMMENDED)
 
 Install JupyterLab with `pip`:
 
